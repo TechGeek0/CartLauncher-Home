@@ -1,0 +1,95 @@
+@import "../../../../static/assets/scss/themify/_variables.scss";
+
+.consent-banner {
+  position: sticky;
+  z-index: 950;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color : whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  // box-shadow: 0 -0.5px 4px rgba($color: , $alpha: 0.5);
+  animation: 1s ease-in-out forwards fadeInUp;
+  h5 {
+    margin-left: 5rem;
+    font-weight: 700;
+    color: $iconDark;
+    margin-bottom: 4px;
+  }
+  p{
+    margin-left: 5rem;
+    font-size: 12px;
+  }
+  a {
+    color: #FF4C3B;
+    text-decoration: underline;
+    &:hover {
+      color: blanchedalmond;
+    }
+  }
+  .btn,
+  .btn-text {
+    display: flex;
+    font-size: 12px;
+    display: block;
+  }
+  .btn {
+    padding: 4px 12px;
+  }
+  .btn-text {
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    padding: 4px 19px;
+    background-color: transparent;
+  }
+  .consent-left{
+    flex: 3;
+  }
+  .consent-right{
+    flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .consent-banner {
+    .consent-left{
+      flex: 4;
+    }
+    .consent-right{
+      flex: 1;
+    }
+    height: 100px;
+    .btn,
+    .btn-text {
+      display: inline;
+      margin-right: 4px;
+    }
+  }
+
+}
+@media (max-width: 550px) {
+  .consent-banner {
+   
+    height: 180px;
+    h5{
+      font-size: 12px;
+    }
+  }
+
+}
+
+@media (max-width: 280px) {
+  .consent-banner {
+   
+    height: 290px;
+    h5{
+      font-size: 12px;
+    }
+    .btn{
+      width: 50px;
+    }
+  }
+
+}

@@ -1,0 +1,88 @@
+.consent-banner {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 950;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-animation: 1s ease-in-out forwards fadeInUp;
+          animation: 1s ease-in-out forwards fadeInUp;
+}
+.consent-banner h5 {
+  margin-left: 5rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 4px;
+}
+.consent-banner p {
+  margin-left: 5rem;
+  font-size: 12px;
+}
+.consent-banner a {
+  color: #FF4C3B;
+  text-decoration: underline;
+}
+.consent-banner a:hover {
+  color: blanchedalmond;
+}
+.consent-banner .btn,
+.consent-banner .btn-text {
+  display: flex;
+  font-size: 12px;
+  display: block;
+}
+.consent-banner .btn {
+  padding: 4px 12px;
+}
+.consent-banner .btn-text {
+  border: none;
+  outline: none;
+  margin-top: 4px;
+  padding: 4px 19px;
+  background-color: transparent;
+}
+.consent-banner .consent-left {
+  flex: 3;
+}
+.consent-banner .consent-right {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .consent-banner {
+    height: 100px;
+  }
+  .consent-banner .consent-left {
+    flex: 4;
+  }
+  .consent-banner .consent-right {
+    flex: 1;
+  }
+  .consent-banner .btn,
+.consent-banner .btn-text {
+    display: inline;
+    margin-right: 4px;
+  }
+}
+@media (max-width: 550px) {
+  .consent-banner {
+    height: 180px;
+  }
+  .consent-banner h5 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 280px) {
+  .consent-banner {
+    height: 290px;
+  }
+  .consent-banner h5 {
+    font-size: 12px;
+  }
+  .consent-banner .btn {
+    width: 50px;
+  }
+}/*# sourceMappingURL=ConsentBanner.css.map */
