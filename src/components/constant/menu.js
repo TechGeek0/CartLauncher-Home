@@ -13,6 +13,20 @@ export const MENUITEMS = [
       ],
       
    },
+   {
+      title: 'Molla', type: 'sub', children: [
+       
+      
+        
+        
+         {
+            title: 'Furniture', type: 'link', path: ''
+         },
+         { path: 'Electronic', title: 'Electronic', type: 'link' },
+         
+      ],
+      
+   },
   
 ]
 
