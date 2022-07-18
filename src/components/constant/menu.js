@@ -20,7 +20,7 @@ export const MENUITEMS = [
         
         
          {
-            title: 'Furniture', type: 'link', path: ''
+            title: 'Furniture', type: 'link', path: 'https://unique-florentine-efb4e3.netlify.app',type: 'link'
          },
          { path: 'Electronic', title: 'Electronic', type: 'link' },
          
