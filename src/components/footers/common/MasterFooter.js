@@ -28,8 +28,9 @@ const MasterFooter = ({
 }) => {
   const [isOpen, setIsOpen] = useState();
   const [collapse, setCollapse] = useState(0);
+  let width;
   if(typeof window !== 'undefined') {
-  const width =  window.innerWidth< 750;
+   width =  typeof window.innerWidth< 750;
   }
   useEffect(() => {
     const changeCollapse = () => {
