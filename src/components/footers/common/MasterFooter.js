@@ -28,7 +28,7 @@ const MasterFooter = ({
 }) => {
   const [isOpen, setIsOpen] = useState();
   const [collapse, setCollapse] = useState(0);
-  const width = window.innerWidth < 750;
+  const width = typeof window.innerWidth !== 'undefined' ? window.innerWidth < 750 : window.innerWidth< 750;
   useEffect(() => {
     const changeCollapse = () => {
       if (window.innerWidth < 750) {
