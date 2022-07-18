@@ -28,14 +28,18 @@ const MasterFooter = ({
 }) => {
   const [isOpen, setIsOpen] = useState();
   const [collapse, setCollapse] = useState(0);
-  const width = typeof window.innerWidth !== 'undefined' ? window.innerWidth < 750 : window.innerWidth< 750;
+  if(typeof window !== 'undefined') {
+  const width =  window.innerWidth< 750;
+  }
   useEffect(() => {
     const changeCollapse = () => {
+      if(typeof window !== 'undefined') {
       if (window.innerWidth < 750) {
         setCollapse(0);
         setIsOpen(false);
       } else setIsOpen(true);
     };
+  }
 
     window.addEventListener("resize", changeCollapse);
 
