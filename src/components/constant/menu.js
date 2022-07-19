@@ -22,7 +22,7 @@ export const MENUITEMS = [
          {
             title: 'Furniture', type: 'link', path: 'https://unique-florentine-efb4e3.netlify.app',type: 'link'
          },
-         { path: 'Electronic', title: 'Electronic', type: 'link' },
+         { path: 'Electronic', title: 'Electronic', type: 'link',path:'https://brilliant-swan-c3c8ef.netlify.app' },
          
       ],
       
