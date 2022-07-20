@@ -28,7 +28,7 @@ const Data = [
 const MasterCollectionBanner = ({ img, about, offer, link, classes }) => {
   return (
     <Col md="4">
-      <a href={link}>
+      <a href='#'>
         <div className={`collection-banner ${classes}`}>
           <div className="img-part">
             <Media

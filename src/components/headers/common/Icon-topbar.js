@@ -66,7 +66,7 @@ const IconTopbar = () => {
               <div className="menu-right pull-right">
                 <ul className="header-dropdown">
                   <li className="mobile-wishlist">
-                    <Link href="/page/account/wishlist">
+                    <Link href="#">
                       
                         <i className="fa fa-heart" aria-hidden="true"></i>
                         <Media src={"/assets/images/icon/like.png"} alt="" />
@@ -78,7 +78,7 @@ const IconTopbar = () => {
                     <i className="fa fa-user" aria-hidden="true"></i>
                     <ul className="onhover-show-div">
                       <li>
-                        <Link href="/page/account/login">
+                        <Link href="#">
                           Login
                         </Link>
                       </li>

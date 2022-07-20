@@ -109,7 +109,7 @@ console.log(err.response.data)
                 </Link>
 
                 <div className="form-footer mt-3">
-                  <Link to="/forgetpassword/" className="forgot-link">
+                  <Link to="#" className="forgot-link">
                     Forgot Your Password?
                   </Link>
                 </div>
@@ -125,7 +125,7 @@ console.log(err.response.data)
                 and easy. It allows you to be able to order from our shop. To
                 start shopping click register.
               </p>
-              <Link to="/page/account/register" className="btn btn-solid">
+              <Link to="#" className="btn btn-solid">
                 Create an Account
               </Link>
             </div>

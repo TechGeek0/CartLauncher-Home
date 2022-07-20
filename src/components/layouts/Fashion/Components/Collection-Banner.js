@@ -23,7 +23,7 @@ const Data = [
 const MasterCollectionBanner = ({ img, about, offer, link, classes }) => {
   return (
     <Col md="6">
-      <Link to={link}>
+      <Link to='#'>
         <Link>
           <div className={`collection-banner ${classes}`}>
             <Media src={img} className="img-fluid" alt="" />

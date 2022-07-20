@@ -64,14 +64,14 @@ const blog = [
                 {blog &&
                   blog.map((item, index) => (
                     <Col md="12" key={index}>
-                      <Link href={`/blogs/blog_detail`}>
+                      <Link href={`#`}>
                         <div className="classic-effect">
                           <Media src={item.image} className="img-fluid" alt="" />
                         </div>
                       </Link>
                       <div className="blog-details">
                         <h4>{item.title}</h4>
-                        <Link href={`/blogs/blog_detail`}>
+                        <Link href={`#`}>
                           <p>{item.description} </p>
                         </Link>
                         <hr className="style1" />

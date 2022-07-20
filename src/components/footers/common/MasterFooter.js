@@ -188,22 +188,22 @@ const MasterFooter = ({
                     <div className="footer-contant">
                       <ul>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`#`}>
                             <a>womens</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`#`}>
                             <a> clothing </a>
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`#`}>
                             <a>accessories</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`#`}>
                             <a> featured </a>
                           </Link>
                         </li>

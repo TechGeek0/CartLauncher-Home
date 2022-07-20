@@ -40,7 +40,7 @@ const HeaderSeven = ({ logoName }) => {
                   <div className="top-header">
                     <ul className="header-dropdown">
                       <li className="mobile-wishlist">
-                        <Link href="/page/account/wishlist">
+                        <Link href="#">
                           <a>
                             <Media src={"/assets/images/jewellery/icon/heart.png"} alt="" />
                           </a>
@@ -50,7 +50,7 @@ const HeaderSeven = ({ logoName }) => {
                         <Media src={"/assets/images/jewellery/icon/avatar.png"} alt="" />
                         <ul className="onhover-show-div">
                           <li>
-                            <Link href="/page/account/login">
+                            <Link href="#">
                               <a data-lng="en">Login</a>
                             </Link>
                           </li>

@@ -28,7 +28,7 @@ const TopBarDark = ({ topClass, fluid }) => {
           <Col lg="6" className="text-right">
             <ul className="header-dropdown">
               <li className="mobile-wishlist">
-                <Link href="/page/account/wishlist">
+                <Link href="#">
                   <a>
                     <i className="fa fa-heart" aria-hidden="true"></i> wishlist
                   </a>
@@ -38,12 +38,12 @@ const TopBarDark = ({ topClass, fluid }) => {
                 <i className="fa fa-user" aria-hidden="true"></i> My Account
                 <ul className="onhover-show-div">
                   <li>
-                    <Link href={`/page/account/login`}>
+                    <Link href={`#`}>
                       <a>Login</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href={`/page/account/register`}>
+                    <Link href={`#`}>
                       <a>Register</a>
                     </Link>
                   </li>

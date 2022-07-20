@@ -30,8 +30,8 @@ const ConsentBanner = () => {
             <p>
               By using our site, you acknowledge that you have read and
               understand our {" "}
-              <Link to="/privacy/">Privacy Policy</Link>, and our{" "}
-              <Link to="/terms/">Terms of Service</Link>.
+              <Link to="#">Privacy Policy</Link>, and our{" "}
+              <Link to="#">Terms of Service</Link>.
             </p>
           </div>
           <div  className="   consent-right">

@@ -90,10 +90,10 @@ const CartComponent = ({ icon, layout }) => {
               </li>
               <li>
                 <div className="buttons">
-                  <Link href="/page/account/cart">
+                  <Link href="#">
                     <button className="btn btn-solid btn-xs view-cart">View Cart</button >
                   </Link>
-                  <Link href="/page/account/checkout">
+                  <Link href="#">
                     <button className="btn btn-solid btn-xs checkout">checkout</button >
                   </Link>
                 </div>
