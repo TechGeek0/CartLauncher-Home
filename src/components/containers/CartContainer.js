@@ -23,7 +23,7 @@ const CartContainer = () => {
         <div className="cart-qty-cls">
         {/* {cartlist.items.length} */}
         </div>
-        <Link to={`/cart`}>
+        <Link to={`#`}>
           <div>
           <Media src={'/assets/images/icon/Add-to-cart.png'} className="img-fluid" alt="Cart Logo" />
             <i className="fa fa-shopping-cart"></i>
@@ -50,10 +50,10 @@ const CartContainer = () => {
               </li>
               <li>
                 <div className="buttons view-cart">
-                  <Link to={`/cart`}>
+                  <Link to={`#`}>
                     view cart
                   </Link>
-                  <Link className="checkout" to={`/checkout`}>
+                  <Link className="checkout" to={`#`}>
                      Checkout
                   </Link>
                 </div>

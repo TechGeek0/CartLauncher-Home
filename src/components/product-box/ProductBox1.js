@@ -171,11 +171,11 @@ const ProductItem = ({
                         <span>successfully added to your Compare list</span>
                       </h5>
                       <div className="buttons d-flex justify-content-center">
-                        <Link to="/page/compare">
+                        <Link to="#">
                           <Link 
                             to={null}
                             className="btn-sm btn-solid"
-                            onClick={addCompare}
+                            // onClick={addCompare}
                           >
                             View Compare list
                           </Link >

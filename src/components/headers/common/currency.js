@@ -35,7 +35,7 @@ const Currency = ({ icon }) => {
         <i className="fa fa-user"></i>
       </div>
       <div className="show-div setting">
-        <Link to={"/page/account/login"}><h6>Login</h6></Link >
+        <Link to={"#"}><h6>Login</h6></Link >
         
         <ul>
           {/* {language.map((item, i) => (
@@ -51,7 +51,7 @@ const Currency = ({ icon }) => {
             </li>
           ))} */}
         </ul>
-        <Link to={"/page/account/register"}><h6>Register</h6></Link >
+        <Link to={"#"}><h6>Register</h6></Link >
         {/* <ul className="list-inline">
           {data &&
             data.getCurrency.map((cur, i) => (

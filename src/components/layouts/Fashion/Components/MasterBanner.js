@@ -20,7 +20,7 @@ const MasterBanner = ({ img, title, desc, link, classes, btn, btnClass }) => {
                 <div>
                   <h4>{title}</h4>
                   <h1>{desc}</h1>
-                  <Link to={'/allcollection'}>
+                  <Link to={'#'}>
                     <button className={`btn btn-solid ${btnClass ? btnClass : ""}`}>
                       {btn ? btn : "Shop Now"}{" "}
                     </button >
