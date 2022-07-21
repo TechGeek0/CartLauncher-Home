@@ -26,9 +26,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
 
-        name: `${process.env.GATSBY_STORE_NAME}`,
-        short_name: `${process.env.GATSBY_STORE_SHORT_NAME}`,
-        description: `${process.env.GATSBY_STORE_DESCRIPTION}`,
+      
         lang: `en`,
         start_url: `/`,
         background_color: `#fff`,
